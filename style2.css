@@ -57,6 +57,7 @@
     height: auto; /* Replaces fit-content */
     text-align: center;
     padding-top: 20px;
+    font-size: x-large;
 }
 
 .banner::before {
@@ -65,7 +66,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url('logo.jpg');
+    background-image: url('./img/logo.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -109,6 +110,7 @@ p {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
+    font-size: xx-large;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
